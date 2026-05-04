@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 #include <stdlib.h>
 struct smth {
     int n;
@@ -112,9 +111,10 @@ int main (){
         printf ("MERGED EMPTY\n");
     }
     else {
+        printf ("MERGED ");
         while (print != NULL){
             if (print->next == NULL){
-                printf ("%d", print->n);
+                printf ("%d\n", print->n);
             }
             else {
                 printf ("%d ", print->n);
