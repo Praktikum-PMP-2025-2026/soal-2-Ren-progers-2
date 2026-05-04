@@ -1,3 +1,11 @@
+/** EL2008 Praktikum Pemecahan Masalah dengan Pemrograman 2024/2025
+ *   Modul               : 4 - Dynamic Structure
+ *   Hari dan Tanggal    : Senin, 4 Mei 2026
+ *   Nama (NIM)          : Akursio Kidung Gamel (13224051)
+ *   Nama File           : soal2.c
+ *   Deskripsi           : Merged 2 linked list dari nilai terendah ke nilai tertinggi
+ * 
+ */
 #include <stdio.h>
 #include <stdlib.h>
 struct node {
